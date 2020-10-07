@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href=".\css\styles.css">
+    </head>
+    <body>
+        <!--Enlace a Google Search-->
+        <div class="container-fluid">
+            <div class="d-flex" id="header_links">
+                <div class="p-2"></div>
+                <div class="p-2 flex-grow-1">                   
+                    <a href=".\index.html" class="float-right">Google Search</a>
+                </div>
+            </div>            
+        </div>
+        <!--Bloque de imagen de Google-->    	
+    	<div class="container-fluid">
+    		<div class="row align-items-end ggl">
+    			<div class="col-2 col-md-3"></div>
+    			<div class="col-8 col-md-6">
+                    <p class="txt_images">Images</p>
+                </div>
+    			<div class="col-2 col-md-3"></div>	
+    		</div>    		
+    	</div>
+        <!--Formulario de búsqueda-->
+        <form action="https://www.google.com/search" name="f">
+            <div class="container-fluid">
+            	<div class="row">
+                    <div class="col-2 col-md-3"></div>
+                    <div class="col-8 col-md-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" name="q" placeholder="Write a keyword of the image" aria-label="Write a keyword of the image">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-outline-secondary" id="btn_lupa">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                                    </svg>
+                                </button>    
+                            </div>                            
+                        </div>                        
+                        <div>                            
+                            <input type="hidden" name="tbm" value="isch">
+                        </div>
+                    </div>
+                    <div class="col-2 col-md-3"></div>
+                </div>
+            </div>                        
+        </form>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

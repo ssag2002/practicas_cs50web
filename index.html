@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GOOGLE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href=".\css\styles.css">
+    </head>
+    <body>
+        <!--Área superior con enlaces a Búsqueda por imágenes y Búsqueda avanzada -->
+        <div class="container-fluid">
+    		<div class="d-flex">
+    			<div class="p-2 flex-grow-1"></div>
+    			<div class="p-2">
+                    <span class="float-right">
+                        <a href=".\search-by-image.html">Image Search</a>    
+                    </span>    				
+    			</div>
+    			<div class="p-2">
+                    <span class="float-right">
+                        <a href=".\advanced-search.html">Advanced Search</a>
+                    </span>
+    			</div>    			
+    		</div>    		
+    	</div>
+        <!--Logotipo de Google -->
+    	<div class="container-fluid">
+    		<div class="row align-items-end pb-4" id="img_gsearch">
+    			<div class="col-2"></div>
+    			<div class="col-8" >
+                    <img class="img-fluid mx-auto d-block"src=".\img\logo_google.svg">    
+    			</div>
+    			<div class="col-2"></div>	
+    		</div>    		
+    	</div>
+        <!-- Formulario de búsqueda-->
+        <form action="https://google.com/search" name="f">
+        	<div class="container-fluid">
+            	<div class="row">
+            		<div class="col-2"></div>
+            		<div class="col-8 col-xs-12">
+            			<div class="input-group mb-3">            				
+            				<input type="text" class="form-control" name="q" aria-autocomplete="both">
+            			</div>			
+            		</div>
+            		<div class="col-2"></div>
+            	</div>
+            </div>
+            <div class="container-fluid">
+            	<div class="row">
+            		<div class="col-2"></div>
+            		<div class="col-4 d-none d-sm-block">
+                        <input type="submit" class="btn btn-primary btn-sm btn-block" name="btnK" value="Search with Google"> 			
+            		</div>	
+            		<div class="col-4 d-none d-sm-block">
+                        <input type="submit" class="btn btn-danger btn-sm btn-block" name="btnI" value="I'm feeling lucky"> 
+            		</div>	
+            		<div class="col-2"></div>
+            	</div>            	
+            </div>                        
+        </form>
+        <!--scripts de Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>			
+    </body>
+</html>

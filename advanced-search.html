@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Búsqueda avanzada</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href=".\css\styles.css">
+    </head>
+    <body>
+        <!--Enlace a Google Search-->
+        <div class="container-fluid pt-3 pb-3" id="header_adv_search">
+            <div class="d-flex" >
+                <div class="p-2 flex-grow-1">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="mini-google">
+                </div>
+                <div class="p-2">    
+                    <a href=".\index.html" class="text-white">Google Search</a>
+                </div>
+            </div>            
+        </div>
+        <!--Encabezado "Búsqueda avanzada"-->
+        <div class="container-fluid">
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h5>Búsqueda avanzada</h5>
+                </div>                 
+            </div>            
+        </div>
+        <hr>
+        <!--Inicio de bloque de formulario-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-9">
+                     <p class="ind">Mostrar páginas que contengan...</p>
+                </div>
+                <div class="col-3 d-none d-lg-block descripcion">
+                    <p>Para hacer esto en el cuadro de búsqueda...</p>
+                </div>
+            </div>
+        </div>
+        <!--Bloque de formulario-->
+        <form action="https://google.com/search" name="f">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3 ind">Todas las palabras</div>
+                    <div class="col-9 col-lg-6 col-xl-6">
+                        <input type="text" class="form-control mb-3" name="as_q" aria-autocomplete="both">
+                    </div>
+                    <div class="col-3 d-none d-lg-block descripcion">
+                        <label>Ingrese las palabras importante: Terrier Tricolor Ratonera</label>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-3 ind">Esta palabra o frase exacta</div>
+                    <div class="col-9 col-lg-6 col-xl-6">
+                        <input type="text" class="form-control mb-3" name="as_epq" aria-autocomplete="both">
+                    </div>
+                    <div class="col-3 d-none d-lg-block descripcion">
+                        <label>Ingrese las palabras exactas entre comillas: "Terrier ratonero"</label>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-3 ind">Cualquiera de estas palabras</div>
+                    <div class="col-9 col-lg-6 col-xl-6">
+                        <input type="text" class="form-control mb-3" name="as_oq" aria-autocomplete="both">
+                    </div>
+                    <div class="col-3 d-none d-lg-block descripcion">
+                        <label>Ingrese OR entre las palabras que desea: En miniatura OR estándar</label>
+                    </div>                   
+                </div>
+                <div class="row">
+                    <div class="col-3 ind">Ninguna de estas palabras</div>
+                    <div class="col-9 col-lg-6 col-xl-6">
+                        <input type="text" class="form-control mb-3" name="as_eq" aria-autocomplete="both">
+                    </div> 
+                    <div class="col-3 d-none d-xl-block descripcion">
+                        <label">Ingrese un signo menos justo delante de las palabras que no deseas que aparezcan: -Roedor, -"Jack Russell"</label>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-xs-12">
+                        <input type="submit" class="btn btn-sm btn-primary float-right" name="btnK" value="Búsqueda avanzada">     
+                    </div>                    
+                </div>
+            </div>            
+        </form>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+    </body>
+    </html>
